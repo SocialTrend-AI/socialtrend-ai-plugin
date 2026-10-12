@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "socialtrend-ai",
+  "version": "1.0.0",
+  "description": "SocialTrend AI for existing SocialTrend customers: view and reschedule the content calendar, review and act on the approval queue, create social post images, newsletters and AI videos, add Knowledge Base sources, and read Auto Engagement leads and activity.",
+  "author": {
+    "name": "SocialTrend AI",
+    "url": "https://socialtrend.ai/"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SocialTrend AI",
+        "shortDescription": "Create and schedule content",
+        "longDescription": "SocialTrend AI connects ChatGPT to your existing SocialTrend AI account, so you can run your content pipeline from a conversation.\n\nContent calendar\nSee what is scheduled across social, video, newsletter and blog content, check your posting mix and coverage gaps, and move a scheduled item to a new date or time.\n\nApproval queue\nReview content waiting for your approval, then approve it, reject it, or ask for an AI edit.\n\nSocial post images\nDescribe the post you want. SocialTrend generates the image and caption, shows a preview, and lets you approve, edit or reject it.\n\nNewsletters\nGenerate a newsletter draft, preview it, and mark it ready in SocialTrend. Sending stays in the SocialTrend app.\n\nAI videos\nCreate a video from one of your saved recipes or a one-off brief, search voices and avatars, check the credit cost before you start, preview the result, and post it to your connected social accounts.\n\nKnowledge Base\nAdd files, pasted text or web links as sources for your content, and check their scan status.\n\nAuto Engagement\nRead your leads, conversation history, activity feed and engagement stats.\n\nRequirements\nA SocialTrend AI account is required. Sign in with your SocialTrend credentials when you connect. Content generation uses the credits and limits of your existing SocialTrend plan. Posts are published only to the social accounts you have connected in SocialTrend.",
+        "developerName": "SocialTrend AI",
+        "category": "Productivity",
+        "capabilities": [
+          "View and reschedule your content calendar",
+          "Review, approve, reject or request edits on pending content",
+          "Generate social post images with captions and preview them",
+          "Draft and preview newsletters",
+          "Create AI videos from saved recipes or briefs",
+          "Add files, text and web links to your Knowledge Base",
+          "Read Auto Engagement leads, conversations and stats"
+        ],
+        "websiteURL": "https://socialtrend.ai/",
+        "privacyPolicyURL": "https://socialtrend.ai/privacy-policy/",
+        "termsOfServiceURL": "https://socialtrend.ai/terms-of-use/",
+        "supportURL": "https://socialtrend.ai/contact-us/",
+        "defaultPrompt": [
+          "What's on my content calendar for the next 7 days?",
+          "Show me everything waiting for my approval.",
+          "Create a social post image announcing our weekend open house."
+        ],
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/composer-icon.png"
+      }
+    }
+  }
+}

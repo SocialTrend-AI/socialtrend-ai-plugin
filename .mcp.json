@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "socialtrend": {
+      "type": "http",
+      "url": "https://mcp.socialtrend.ai/mcp"
+    }
+  }
+}

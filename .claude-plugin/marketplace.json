@@ -1,0 +1,12 @@
+{
+  "name": "socialtrend-ai-plugins",
+  "description": "SocialTrend AI plugins for Claude.",
+  "owner": { "name": "SocialTrend AI" },
+  "plugins": [
+    {
+      "name": "socialtrend-ai",
+      "displayName": "SocialTrend AI",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "socialtrend-ai",
+  "displayName": "SocialTrend AI",
+  "version": "1.0.0",
+  "description": "SocialTrend AI for existing SocialTrend customers: view and reschedule the content calendar, review and act on the approval queue, create social post images, newsletters and AI videos, add Knowledge Base sources, and read Auto Engagement leads and activity. One skill per feature guides the assistant through the tools; previews render inline where supported.",
+  "author": {
+    "name": "SocialTrend AI",
+    "url": "https://socialtrend.ai/"
+  },
+  "homepage": "https://socialtrend.ai/",
+  "repository": "https://github.com/SocialTrend-AI/socialtrend-ai-plugin",
+  "license": "MIT",
+  "keywords": ["socialtrend", "social-media", "content-calendar", "approval-queue", "newsletter", "video", "knowledge-base", "auto-engagement"]
+}
